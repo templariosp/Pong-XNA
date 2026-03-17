@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Pong
 {
-    public class Game1 : Game
+    public class Pong : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -16,7 +16,7 @@ namespace Pong
         Texture2D goalTexture;
         Point centerScreen;
 
-        public Game1()
+        public Pong()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
